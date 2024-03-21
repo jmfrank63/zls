@@ -7,7 +7,7 @@ const zls_version_is_tagged: bool = false;
 
 /// document the latest breaking change that caused a change to the string below:
 /// std.builtin: make enum fields lowercase
-const min_zig_string = "0.12.0-dev.3245+4f782d1e8";
+const min_zig_string = "0.12.0-dev.3398+e831313b1";
 
 pub fn build(b: *Build) !void {
     const target = b.standardTargetOptions(.{});
